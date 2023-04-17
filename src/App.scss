@@ -6,3 +6,26 @@
 .App > div {
   margin-right: 50px;
 }
+
+.error {
+  border: 1px solid DarkRed;
+}
+
+.error-message {
+  color: DarkRed;
+}
+
+.filter {
+  border: 0px;
+  display: inline-block;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.active-filter {
+  background-color: DeepSkyBlue;
+}
+
+.is-done {
+  opacity: 0.5;
+}
